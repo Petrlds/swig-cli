@@ -41,10 +41,11 @@
   "keywords": [],
   "dependencies": {
     "optimist": "~0.4.0",
-    "async": "~0.2.8"
+    "async": "~0.2.8",
+    "swig": "~0.13.5"
   },
   "preferGlobal": "true",
   "bin": {
-      "swig": "lib/swig-cli.coffee"
+    "swig": "lib/swig-cli.coffee"
   }
 }
