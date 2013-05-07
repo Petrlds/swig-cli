@@ -1,5 +1,6 @@
 optimist = require "optimist"
 validate = require './validate_command'
+constants = require './constants'
 
 module.exports = () ->
   argv = optimist
@@ -8,11 +9,11 @@ module.exports = () ->
       file:
         description: 'JSON file'
         alias: 'f'
-        default: 'stdin'
+        default: constants.STDIN
       output:
         description: 'Output file'
         alias: 'o'
-        default: 'stdout'
+        default: constants.STDOUT
     )
     .check (argv) ->
       validate argv
