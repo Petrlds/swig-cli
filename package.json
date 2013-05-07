@@ -1,0 +1,50 @@
+{
+  "name": "swig-cli",
+  "description": "render JSON data with a Swig template file from the command line",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Petrlds/swig-cli",
+  "author": {
+    "name": "Petr Smirnov",
+    "email": "petr@lodoss.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Petrlds/swig-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Petrlds/swig-cli/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Petrlds/swig-cli/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/swig-cli",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.7",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-simple-mocha": "~0.4",
+    "mocha": "*",
+    "sinon": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "scaffolt": "*",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "optimist": "~0.4.0",
+    "async": "~0.2.8"
+  },
+  "preferGlobal": "true",
+  "bin": {
+      "swig": "lib/swig-cli.coffee"
+  }
+}
