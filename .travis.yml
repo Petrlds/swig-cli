@@ -3,3 +3,4 @@ node_js:
   - 0.8.x
 before_script:
   - npm install -g grunt-cli
+  - npm install -g coffee-script
