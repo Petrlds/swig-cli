@@ -1,4 +1,4 @@
-# swig-cli [![Build Status](https://secure.travis-ci.org/Petrlds/swig-cli.png?branch=master)](http://travis-ci.org/Petrlds/swig-cli)
+# swig-cli [![Build Status](https://travis-ci.org/Petrlds/swig-cli.png?branch=master)](https://travis-ci.org/Petrlds/swig-cli)
 
 render JSON data with a Swig template file (see [http://paularmstrong.github.io/swig/](http://paularmstrong.github.io/swig/)) from the command line
 
